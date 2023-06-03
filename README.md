@@ -1,6 +1,6 @@
 # ffmpeg-install-script
 
-ffmpeg-install-script fetches the latest ffmpeg build from [ffmpeg-builds](https://github.com/BtbN/FFmpeg-Builds/) and extracts it to ```C:\Program Files\ffmpeg```. You are given the option to add the ```.\ffmpeg\bin directory``` to PATH.
+ffmpeg-install-script fetches the latest ffmpeg build from [ffmpeg-builds](https://github.com/BtbN/FFmpeg-Builds/) and extracts it to a user specified location. You are given the option to add the ```.\ffmpeg\bin``` directory to PATH.
 
 ## Installation
 
