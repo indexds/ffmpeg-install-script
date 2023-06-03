@@ -185,7 +185,7 @@ async fn ffmpeg_download(install_path: &PathBuf) -> Result<(), Box<dyn Error>> {
 
     }
     else {
-        Err("Failed to download ffmpeg archive with status. Check your internet connection.")?
+        println!("Failed to download ffmpeg archive with status {}. Check your internet connection.", response.status());
     }
 
     Ok(())
