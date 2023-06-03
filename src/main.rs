@@ -26,7 +26,7 @@ async fn main() {
         }
     };
 
-
+    
     //If ffmpeg isn't installed, download and extract it, then add it to path.
 
     if !found_ffmpeg {
@@ -127,9 +127,6 @@ async fn main() {
         }
 
     }
-    //Main program starts here, install script just ended.
-
-    run_ffmpeg();
     exit_on_user_input();
 }
 
@@ -216,8 +213,4 @@ fn exit_on_user_input() {
     let _ = io::stdin().read_line(&mut String::new()).unwrap();
 
     process::exit(0);
-}
-
-fn run_ffmpeg(){
-    //command line script here
 }
