@@ -8,9 +8,9 @@ To install, first pull the repository to your local machine using
 
 ```bash
 git pull https://github.com/indexds/ffmpeg-install-script.git
-``` 
+```
 
-Then, navigate to the repository  
+Then, navigate to the repository
 
 ```bash
 cd path/to/repository
@@ -30,10 +30,6 @@ You may need to run the script as Administrator to allow PATH environment variab
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
-
-## To do
-
-- Allow user to specify install path.
 
 ## License
 
