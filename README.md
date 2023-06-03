@@ -22,6 +22,8 @@ And compile the source to an executable with
 ```bash
 cargo build --release
 ```
+
+Alternatively, you can download the precompiled source files in the [releases](https://github.com/indexds/ffmpeg-install-script/releases) section.
 ## Usage
 
 To use the script, simply run ```ffmpeg-install-script.exe``` and follow the instructions.
